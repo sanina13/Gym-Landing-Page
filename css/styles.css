@@ -58,6 +58,7 @@ header {
 
 .heading-primary {
   text-align: center;
+  letter-spacing: -0.2rem;
   font-size: 7.4rem;
   font-weight: 800;
   margin-bottom: 6.4rem;
@@ -84,6 +85,36 @@ header {
   font-size: 1.8rem;
   font-weight: 600;
   color: #fff;
+}
+
+/********************/
+/* History SECTION */
+/********************/
+
+.z-image {
+  width: 100%;
+}
+
+.z-text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.z-title {
+  margin: 0 auto;
+  width: 30rem;
+  padding: 0.5rem 0;
+  font-size: 4rem;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: -0.3rem;
+  margin-bottom: 4rem;
+}
+
+.z-description {
+  font-size: 1.8rem;
+  margin-bottom: 4.2rem;
 }
 
 /********************/
