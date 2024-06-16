@@ -6,19 +6,23 @@ colors: #f9e7ea
 /****************/
 
 header {
-  background-color: #f3d0d6;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.685)),
+    url(../img/back-4.jpg);
+
+  background-size: cover;
+  height: 100vh;
 }
 
 .main-header {
   height: 12.8rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10rem 0;
+  padding: 10rem 0 25rem 0;
 }
 
 .main-nav {
+  color: #fff;
   display: flex;
   list-style: none;
   gap: 2.4rem;
@@ -47,50 +51,26 @@ header {
 /* HERO SECTION */
 /****************/
 
-.section-hero {
-  background-color: #f3d0d6;
-}
-
 .hero-container {
+  width: 120rem;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
 }
 
 .heading-primary {
   text-align: center;
   font-size: 7.4rem;
   font-weight: 800;
-  margin-bottom: 3.2rem;
+  margin-bottom: 6.4rem;
+  color: #fff;
 }
 
 .description-hero {
   text-align: center;
-  color: #555;
+  color: #fff;
   font-size: 2rem;
   line-height: 1.1;
-  padding: 0 9rem;
-  margin-bottom: 2.4rem;
-}
-
-.hero--cta-button:link,
-.hero--cta-button:visited {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  font-size: 2rem;
-  padding: 1.8rem 1.6rem;
-  background-color: #c41230;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.hero--cta-button:hover,
-.hero--cta-button:active {
-  background-color: #890d22;
+  padding: 0 30rem;
+  margin-bottom: 4.8rem;
 }
 
 .hero-text-box {
@@ -98,15 +78,21 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 15rem;
 }
 
 .know-more-hero {
   font-size: 1.8rem;
   font-weight: 600;
+  color: #fff;
 }
 
-.hero-gallery img {
-  width: 100%;
-  opacity: 80%;
+/********************/
+/* Location SECTION */
+/********************/
+.section-location {
+  padding: 9.6rem 0;
+  background-color: #edb8c1;
+}
+
+.location {
 }
