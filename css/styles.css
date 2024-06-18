@@ -52,7 +52,8 @@ header {
 }
 
 .logo {
-  width: 40%;
+  padding-left: 2rem;
+  width: 60%;
 }
 
 /****************/
@@ -155,8 +156,11 @@ header {
 /* Location SECTION */
 /********************/
 .section-location {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   padding: 6.4rem 0;
-  background-color: #c41230;
+  padding-bottom: 22rem;
+  background-color: #f9e7ea;
   height: 26rem;
 }
 
@@ -165,12 +169,12 @@ header {
   max-width: 100rem;
   margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 2.4rem;
+  row-gap: 4.8rem;
   justify-items: center;
 }
 
 .title-section {
-  color: #000;
+  color: #333;
   padding: 0 4rem;
   text-align: center;
   letter-spacing: -0.25rem;
@@ -184,8 +188,9 @@ header {
   padding: 2rem 3rem;
   display: inline-block;
   text-decoration: none;
-  background-color: #000;
-  color: #c41230;
+  background-color: #c41230;
+  color: #fff;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 1.2rem;
   cursor: pointer;
@@ -203,7 +208,7 @@ header {
 /********************/
 
 .section-cta {
-  background-color: #3b050e;
+  background-color: #b0102b;
   position: relative;
 }
 .cta {
@@ -251,9 +256,72 @@ header {
 }
 
 .cta-img {
-  width: 16%;
+  width: 16.05%;
   position: absolute;
   opacity: 70%;
   top: 0;
   right: 0;
+}
+
+/********************/
+/* FOOTER SECTION */
+/********************/
+
+footer {
+  padding: 12.8rem 0;
+  background-color: #fff;
+  color: #333;
+  border-top: 1px solid #eee;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+
+  margin-bottom: 4.8rem;
+}
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #c41230;
+}
+.logo-footer {
+  width: 60%;
+  margin-bottom: 2.4rem;
+}
+
+.secondary-nav {
+  list-style: none;
+}
+.link-footer:link,
+.link-footer:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+.link-footer:hover,
+.link-footer:active {
+  color: #c41230;
+}
+.title-footer {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+.text-footer {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-footer-copy {
+  font-size: 1.4rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
