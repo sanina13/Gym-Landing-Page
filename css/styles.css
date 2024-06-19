@@ -10,7 +10,7 @@ header {
     url(../img/back-4.jpg);
 
   background-size: cover;
-  height: 100vh;
+  height: 100rem;
 }
 
 .main-header {
@@ -61,7 +61,7 @@ header {
 /****************/
 
 .hero-container {
-  width: 120rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -256,11 +256,13 @@ header {
 }
 
 .cta-img {
+  display: none;
   width: 16.05%;
   position: absolute;
   opacity: 70%;
-  top: 0;
-  right: 0;
+  top: 35%;
+  right: 20%;
+  transform: rotate(120deg) translate(0, -50%);
 }
 
 /********************/

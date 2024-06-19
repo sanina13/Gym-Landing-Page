@@ -1,0 +1,31 @@
+/*1173px*/
+@media (max-width: 73em) {
+  .hero-section {
+    max-width: 100rem;
+  }
+  .first-z,
+  .second-z,
+  .third-z {
+    grid-template-columns: 1fr;
+  }
+  .z-image {
+    width: 50% !important;
+    margin-bottom: 3.2rem;
+    margin: 3.2rem auto;
+  }
+  .z-text {
+    margin-bottom: 6.4rem !important;
+  }
+
+  .z-description {
+    line-height: 1.8;
+    padding: 0 3rem;
+  }
+
+  .trade-pos {
+    grid-row: 2;
+  }
+  .section-history {
+    padding: 6.4rem 0;
+  }
+}
