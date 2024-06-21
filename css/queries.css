@@ -30,9 +30,9 @@
   }
 }
 
-@media (max-width: 62em) {
+@media (max-width: 63em) {
   .html {
-    font-size: 56.25%;
+    font-size: 50%;
   }
   .hero-section {
     max-width: 100rem;
@@ -46,6 +46,14 @@
   .logo {
     width: 50%;
   }
+  .title-section:first-child {
+    padding: 0 7rem;
+  }
+
+  .title-section {
+    font-size: 2.6rem;
+    padding: 0 3rem;
+  }
 }
 
 @media (max-width: 54em) {
@@ -57,6 +65,12 @@
     font-size: 4.4rem;
     padding: 0 12rem;
   }
+
+  .cta {
+    max-width: 140rem;
+    padding: 9.6rem 10rem;
+  }
+
   /*MOBILE NAVIGATION*/
   .btn-mobile-nav {
     display: block;
@@ -103,5 +117,37 @@
   .main-nav {
     flex-direction: column;
     gap: 4.8rem;
+  }
+
+  /*FOOTER*/
+  .footer {
+    max-width: 75rem;
+  }
+}
+
+@media (max-width: 49em) {
+  /*FOOTER*/
+  .footer {
+    max-width: 65rem;
+  }
+  /*HERO*/
+  .description-hero {
+    padding: 0 15rem;
+    line-height: 1.4;
+  }
+  .heading-primary {
+    font-size: 4.8rem;
+    padding: 0 14rem;
+  }
+  .z-description {
+    padding: 0;
+  }
+
+  .title-section:first-child {
+    padding: 0 3rem;
+  }
+  .title-section {
+    font-size: 2.6rem;
+    padding: 0 0rem;
   }
 }
