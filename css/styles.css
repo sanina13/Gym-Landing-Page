@@ -23,6 +23,7 @@ header {
 
 .main-nav {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 2.4rem;
   font-size: 1.8rem;
@@ -54,6 +55,26 @@ header {
 .logo {
   padding-left: 2rem;
   width: 60%;
+}
+
+/*MOBILE*/
+.btn-mobile-nav {
+  border: none;
+  cursor: pointer;
+  background: none;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+  padding-right: 2.4rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /****************/
