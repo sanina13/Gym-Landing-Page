@@ -176,7 +176,7 @@
   }
 
   .title-2 {
-    max-width: 43434rem;
+    max-width: 20rem;
     padding: 1rem 0.13rem;
   }
 
@@ -233,5 +233,48 @@
   .grid--5-col {
     grid-template-columns: repeat(5, 1fr);
     row-gap: 6rem;
+  }
+}
+
+@media (max-width: 26em) {
+  html {
+    font-size: 40%;
+  }
+  /*HERO*/
+  .heading-primary {
+    padding: 0 5rem;
+  }
+  /*z-section*/
+  .title-3 {
+    line-height: 1.2;
+  }
+  /*Location*/
+  .section-location {
+    padding-bottom: 4rem;
+  }
+  .mid {
+    padding-right: 1.8rem;
+  }
+  .last {
+    padding-right: 0.6rem;
+  }
+
+  .btn-location:link,
+  .btn-location:visited {
+    padding: 1.5rem 2rem;
+  }
+  /*CTA*/
+  .button-cta {
+    font-size: 1.6rem;
+  }
+  .mail-cta {
+    font-size: 1.6rem;
+  }
+  .title-cta {
+    font-size: 2.6rem;
+  }
+  /*footer*/
+  .navigate {
+    padding-right: 1rem;
   }
 }
